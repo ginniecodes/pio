@@ -26,5 +26,8 @@
   "bugs": {
     "url": "https://github.com/jhia/pio/issues"
   },
-  "homepage": "https://github.com/jhia/pio#readme"
+  "homepage": "https://github.com/jhia/pio#readme",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
 }
