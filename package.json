@@ -1,0 +1,30 @@
+{
+  "name": "pio",
+  "version": "1.0.0",
+  "description": "Desktop popups notifications from twitter",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhia/pio.git"
+  },
+  "keywords": [
+    "twitter",
+    "api",
+    "express",
+    "nodejs",
+    "javascript",
+    "notifications",
+    "popups",
+    "repository",
+    "npm"
+  ],
+  "author": "Jhinel Arcaya",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jhia/pio/issues"
+  },
+  "homepage": "https://github.com/jhia/pio#readme"
+}
