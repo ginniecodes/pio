@@ -1,14 +1,16 @@
 var express = require('express'),
-app = express(),
-twitter = require('./src/server-module.js'),
-url = 'https://api.twitter.com/1.1/statuses/mentions_timeline.json',
-counter = 6, port = 8009
-getUrl = url + '?' + 'count=' + counter
+	fs = require('fs'),
+	app = express(),
+	port = 8009
 
-app.post('/', function (req, res){
-	res.send(twitter(getUrl))
+app.get('/', function (req, res){
+	fs.readFile('index.html', function(err, data){
+		if(err)
+			throw err
+		res.write(data)
+	})
 })
 
 app.listen(port, function(){
-	console.log('server successfully on localhost:' + port)
+	console.log('server successfully running on localhost:' + port)
 })
