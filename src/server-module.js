@@ -1,15 +1,17 @@
 var express = require('express'),
-app = express(),
-fs = require('fs'),
-url = 'https://api.twitter.com/1.1/statuses/'
+	fs = require('fs'),
+	app = express(),
+	port = 8009,
+	file = 'index.html'
 
-a = fs.createWriteStream('one.txt'),
-getMentions = function (jsonfile) {
-	app.get(url + jsonfile,function(req, res){
-		res.pipe(a)
-		res.send(a.toString())
+app.get('/', function (req, res){
+	fs.readFile(file, function(err, data){
+		if(err)
+			throw err
+		res.write(data)
 	})
-	return a
-}
+})
 
-module.export = getMentions
+app.listen(port, function(){
+	console.log('server successfully running on localhost:' + port)
+})
