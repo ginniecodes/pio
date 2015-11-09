@@ -1,4 +1,5 @@
-/*Here's the app index, here's the change to the index....*/
+/* In this file, start the use the server module and push the response to
+the view */
 var server = require('./src/server-module.js'),
 	notify = new Notification()
 server()

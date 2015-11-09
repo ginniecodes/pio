@@ -1,3 +1,5 @@
+/*in this file, make a module to perform the server that interacts to 
+twitter API*/
 var express = require('express'),
 	fs = require('fs'),
 	app = express(),
