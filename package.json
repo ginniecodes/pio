@@ -28,6 +28,7 @@
   },
   "homepage": "https://github.com/jhia/pio#readme",
   "dependencies": {
-    "express": "^4.13.3"
+    "express": "^4.13.3",
+    "oauth": "^0.9.14"
   }
 }
