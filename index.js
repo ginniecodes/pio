@@ -6,6 +6,5 @@ server()
 notify.req = function (){
 	return notify.requestPermission()
 }
-
 if(notify.req == 'granted')
 	console.log('yes!')

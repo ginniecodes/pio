@@ -29,6 +29,6 @@
   "homepage": "https://github.com/jhia/pio#readme",
   "dependencies": {
     "express": "^4.13.3",
-    "oauth": "^0.9.14"
+    "oauth-1.0a": "^1.0.1"
   }
 }
