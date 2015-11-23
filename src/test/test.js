@@ -1,3 +1,4 @@
+//This is just for npm test
 var assert = require('assert');
 describe('Array', function() {
   describe('#indexOf()', function () {
