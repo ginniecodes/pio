@@ -4,7 +4,7 @@
   "description": "Desktop popups notifications from twitter",
   "main": "index.js",
   "scripts": {
-    "test": "node test.js"
+    "test": "node test/test.js"
   },
   "repository": {
     "type": "git",
@@ -13,7 +13,6 @@
   "keywords": [
     "twitter",
     "api",
-    "express",
     "nodejs",
     "javascript",
     "notifications",
@@ -28,7 +27,6 @@
   },
   "homepage": "https://github.com/jhia/pio#readme",
   "dependencies": {
-    "express": "^4.13.3",
     "oauth-1.0a": "^1.0.1"
   }
 }
