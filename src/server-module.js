@@ -34,17 +34,3 @@ req = http.request({url: request_data.url,
 	}).on('error', function(err){console.error(err.message);});
 req.write('data\n');
 req.end();
-
-/*
-request({
-	url: request_data.url,
-	method: request_data.method,
-	form: request_data.data,
-	header: oauth.toHeader(oauth.authorize(request_data, token))
-}, function(error, response, body){
-	if(error)
-		console.err(error);
-	console.log(response);
-	response.write(body);
-	response.end();
-});*/
