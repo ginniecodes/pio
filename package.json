@@ -4,7 +4,7 @@
   "description": "Desktop popups notifications from twitter",
   "main": "index.js",
   "scripts": {
-    "test": "node test/test.js"
+    "test": "node src/test/test.js"
   },
   "repository": {
     "type": "git",
