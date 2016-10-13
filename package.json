@@ -27,6 +27,7 @@
   },
   "homepage": "https://github.com/jhia/pio#readme",
   "dependencies": {
+    "node-notifier": "^4.6.1",
     "oauth-1.0a": "^1.0.1"
   }
 }
