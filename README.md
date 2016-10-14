@@ -1,5 +1,5 @@
 #Pio for Twitter
-Pio is a twitter notification for Node.js platform.using [Node-Notifier](https://github.com//node-notifier) and Forever 
+Pio is a twitter notification for Node.js platform.using [Node-Notifier](https://github.com/mikaelbr/node-notifier) and Forever 
 
 ##Installation
 You can install it globally with NPM (In a couple days, still under development)
